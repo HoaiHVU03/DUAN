@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Dancing+Script:wght@500&family=Instrument+Serif&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nosifer&family=Noto+Serif:ital,wght@1,700&family=Nunito:wght@500&family=Oswald:wght@200..700&family=PT+Serif:wght@700&family=Playfair+Display:ital,wght@0,700;1,700&family=Raleway&family=Rubik:ital,wght@1,500&family=Varela+Round&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.banner{
+    height: 200px;
+    width: 100%;
+    background-color: #333;
+    position: relative;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(31,31,199,1) 35%, rgba(0,212,255,1) 100%);
+    
+}
+.banner .logo img{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 163px;
+}
+.banner .hotline{
+    position: absolute;
+    left: 1030px;
+    cursor: pointer;
+    font-size: 20px;
+    top: 145px;
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+}
+
+.banner .hotline span:nth-child(1){
+    color: chocolate;
+}
+
+.banner .hotline span:nth-child(3){
+    color: #fff;
+    font-weight: bold;
+}
+.product-navs{
+    height: 50px;
+    width: 100%;
+    background-color: #2B3F9D;
+    margin-bottom: 30px;
+}
+.product-navs ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.product-navs ul li{
+    position: relative;
+    padding: 0 45.6px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 19px;
+    list-style: none;
+    font-family: "Nunito", sans-serif;;
+}
+
+.product-navs ul li input{
+    height: 32px;
+    border: none;
+    outline: none;
+}
+.product-navs ul li button{
+    position: absolute;
+    padding: 7.1px 9px;
+    outline: none;
+    border: none;
+    left: 200px;
+    top: 11px;
+    cursor: pointer;
+    background-color: #1060E2;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.product-navs ul li button:hover{
+    transform: scale(1.1);
+    background-color:#2B3F9D;
+}
+.product-navs ul li button i{
+    font-size: 15px;
+}
+.product-navs ul li:hover{
+    background-color:#1060E2;
+
+}
+.container{
+    width: 1200px;
+    margin:auto;
+}
+.container .slideshow{
+    height:200px;
+    width: 100%;
+}
+
+.container .slideshow img{
+    width: 600px;
+    height: 350px;
+}
+.container .slideshow img:nth-child(2){
+    float: right;
+}
+
+.container .banner-bottom img{
+    margin-top: 20px;
+}
+
+.container .title{
+    height: 50px;
+    background-color: #1060E2;
+    margin: 10px 0;
+}
+.container .title h2{
+    line-height: 50px;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+}
+
+.container .list-container ul{
+    display: flex;
+    left: -5px;
+    
+
+}
+.container .list-container ul li{
+    margin: 5px 5px;
+    width: 190px;
+    height: 200px;
+    list-style: none;
+    border: 1px solid #999;
+}
+.container .list-container ul li img{
+    width: 180px;
+    height: 150px;
+}
+
+.container .list-container ul li span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .list-container ul li span:nth-child(2){
+    color: #2B3F9D;
+    font-size: 17px;
+    font-family:"Nunito", sans-serif ;
+    font-weight: 600;
+}
+.container .list-container ul li span:nth-child(3){
+    font-size: 12px;
+    font-family:"Nunito", sans-serif ;
+    font-weight: 600;
+    color: red;
+}
+/*-------------------footer--------------------*/
+
+.footer{
+    margin-top: 30px;
+    height: 400px;
+    background-color: #f8f3f3;
+    font-family: "Nunito", sans-serif;
+}
+.footer ul{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul li{
+    list-style-type: none;
+    font-family: "Nunito", sans-serif;
+    margin: 0 30px;
+    width: 200px;
+    height: 300px;
+}
+.footer ul li:nth-child(4){
+    width: 250px;
+}
+
+.footer ul li h3{
+    text-align: center;
+    color: #2B3F9D;
+    font-size: 17px;
+}
+.footer ul li i:nth-child(3){
+    color: #2B3F9D;
+}
+.footer ul li i:nth-child(6){
+    color: red;
+}
+.footer ul li i:nth-child(9){
+    color: red;
+}
+.footer ul li i:hover{
+    transform: scale(1.2);
+}
+.footer ul li i{
+    transition: all 0.3s ease;
+}
+.footer ul li span{
+    font-size: 15px;
+    margin-left: 5px;
+    color: #999;
+    font-weight: bold;
+}
+.footer ul li p{
+    color: #999;
+    font-size: 14px;
+    margin-left:5px;
+    margin-top: 5px;
+}
+
+.footer ul li button{
+    font-family:"Nunito", sans-serif;
+    padding: 5px 8px;
+    outline: none;
+    border: none;
+    background-color:#1060E2;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.footer ul li button:hover{
+    transform: scale(1.1);
+}
+.footer ul li input{
+    outline: none;
+    border: none;
+    height: 30px;
+    margin-left: 18px;
+}
+
+::placeholder{
+    font-size: 11px;
+    font-family: "Nunito", sans-serif;
+    padding: 0 5px;
+}
